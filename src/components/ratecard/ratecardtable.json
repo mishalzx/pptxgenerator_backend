@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_ratecard_ratecardtables",
+  "info": {
+    "displayName": "ratecardtable"
+  },
+  "options": {},
+  "attributes": {
+    "faces": {
+      "type": "string"
+    },
+    "rate": {
+      "type": "string"
+    },
+    "maximum_qty": {
+      "type": "string"
+    },
+    "city": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::city.city"
+    }
+  }
+}

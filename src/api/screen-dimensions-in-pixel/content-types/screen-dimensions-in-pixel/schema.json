@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "screen_dimensions_in_pixels",
+  "info": {
+    "singularName": "screen-dimensions-in-pixel",
+    "pluralName": "screen-dimensions-in-pixels",
+    "displayName": "screen dimensions in pixel"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "width": {
+      "type": "string"
+    },
+    "height": {
+      "type": "string"
+    }
+  }
+}

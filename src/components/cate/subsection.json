@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_cate_subsections",
+  "info": {
+    "displayName": "subsection"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "billboard_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::billboard-category.billboard-category"
+    }
+  }
+}

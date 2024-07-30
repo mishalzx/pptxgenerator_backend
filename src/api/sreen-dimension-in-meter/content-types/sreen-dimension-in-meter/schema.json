@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sreen_dimension_in_meters",
+  "info": {
+    "singularName": "sreen-dimension-in-meter",
+    "pluralName": "sreen-dimension-in-meters",
+    "displayName": "screen dimension in meter",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "width": {
+      "type": "string"
+    },
+    "height": {
+      "type": "string"
+    }
+  }
+}
